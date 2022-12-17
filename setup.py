@@ -1,19 +1,20 @@
 import setuptools
 
-# with open("README.md", "r", encoding = "utf-8") as fh:
-#     long_description = fh.read()
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setuptools.setup(
-    name="py_reader",
+    name="py_pdf_reader",
     version="0.0.1",
     author="aslam",
     author_email="asdmail045@gmail.com",
     description="Reads text from PDF document and save it as an audio file",
-    long_description="",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/aslam-c/text-to-speech",
     project_urls={
-        "Bug Tracker": "package issues URL",
+        "Bug Tracker": "https://github.com/aslam-c/text-to-speech",
+        "repository": "https://github.com/aslam-c/text-to-speech"
     },
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -1,4 +1,3 @@
-Name = "TextSpeaker"
 [build-system]
 requires = [
     "setuptools>=42",
