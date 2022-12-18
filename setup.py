@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="py_pdf_reader",
-    version="0.0.1",
+    version="0.0.2",
     author="aslam",
     author_email="asdmail045@gmail.com",
     description="Reads text from PDF document and save it as an audio file",
