@@ -1,7 +1,6 @@
 import PyPDF2
 import pyttsx3
 
-
 # converts pdf document to audible mp3
 # arguments
 # documentPath : from where the input is to be taken
